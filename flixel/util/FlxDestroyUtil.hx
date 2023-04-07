@@ -1,8 +1,10 @@
 package flixel.util;
 
+#if !macro
 import flash.display.BitmapData;
 import flash.display.DisplayObject;
 import flash.display.DisplayObjectContainer;
+#end
 import flixel.util.FlxPool.IFlxPooled;
 
 class FlxDestroyUtil
